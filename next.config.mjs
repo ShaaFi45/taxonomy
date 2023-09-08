@@ -4,6 +4,7 @@ import "./env.mjs"
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  pageExtensions: ['mdx', 'md', 'jsx', 'js', 'tsx', 'ts', 'json'],
   reactStrictMode: true,
   images: {
     domains: ["avatars.githubusercontent.com"],
